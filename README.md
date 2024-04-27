@@ -6,7 +6,7 @@ This implementation of a web_client uses the code provided in the 10th laborator
 -Communication with the server incluuded in helpers.cpp, operations on the buffer included in buffer.cpp,
  initial form of compose requests with slight modifications.
 
-For json files the recommanded nlohmann library has been used(only the json file from it), for convinience
+For json files the nlohmann library has been used(only the json file from it), for convinience
 (using json = nlohmann::json;) it's name is set to json. The :: parse method is used to parse the objects
 received from the server into json array's or normal jsons respectively.
 
