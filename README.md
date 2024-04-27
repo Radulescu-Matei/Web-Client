@@ -2,9 +2,8 @@ Radulescu Matei
 
 Web Client implemented with rest API:
 
-This implementation of a web_client uses the code provided in the 10th laboratory in the following areas:
--Communication with the server incluuded in helpers.cpp, operations on the buffer included in buffer.cpp,
- initial form of compose requests with slight modifications.
+This implementation of a web_client uses auxiliary files for:
+Communication with the server included in helpers.cpp, operations on the buffer included in buffer.cpp.
 
 For json files the nlohmann library has been used(only the json file from it), for convinience
 (using json = nlohmann::json;) it's name is set to json. The :: parse method is used to parse the objects
