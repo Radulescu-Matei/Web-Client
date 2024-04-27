@@ -9,7 +9,7 @@ For json files the nlohmann library has been used(only the json file from it), f
 (using json = nlohmann::json;) it's name is set to json. The :: parse method is used to parse the objects
 received from the server into json array's or normal jsons respectively.
 
-The request are implemented as follows:
+The requests are implemented as follows:
 DELETE : On the first line it contains the name of the method which is DELETE, the url where it shoud go
 and the version of HTTP being used, on the second line it contains the host, librarythan a cookie if one has been
 provided in thid case it will contain the details of the current_user of the library(that is on the server), and
